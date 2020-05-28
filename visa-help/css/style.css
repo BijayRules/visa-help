@@ -4,20 +4,20 @@
   list-style: none;
 }
 
+.header > .uk-container.navigation {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  width: 100%;
+  z-index: 1111;
+}
+
 .navigation {
   margin-top: 20px;
 }
 
 .logo {
   width: 100px;
-}
-
-header .header-bg {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1111;
 }
 
 .menu-wrapper {
@@ -82,4 +82,180 @@ header .header-bg {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   text-transform: none;
+}
+
+.aboutus {
+  margin-top: 98px;
+  color: #000;
+}
+
+.aboutus .aboutus__text {
+  width: 480px;
+  align-self: center;
+  background: #fff;
+  color: #000;
+  transform: translate(30%, 5%);
+  z-index: 1;
+  position: relative;
+  padding: 20px 0;
+  padding-left: 100px;
+}
+
+.aboutus__text .aboutus--text span {
+  font-family: "Raleway", sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #205395;
+}
+
+.aboutus__text .aboutus--text p {
+  width: 377px;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+}
+
+.aboutus .uk-button {
+  font-family: "Nunito", sans-serif;
+  font-size: 19px;
+  color: #fff;
+  margin: 0;
+  background-color: #ee3c2b;
+}
+
+.achievements {
+  margin-top: 90px;
+}
+
+.achievement-num {
+  margin-left: 5px;
+}
+
+.achievements strong {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.achievements small {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.migration-services {
+  background: url("../images/migration-services-banner.png") center center;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.migration-services-info {
+  text-align: center;
+}
+
+.info-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.migration-services-info .migration-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.migration-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.migration-icons i {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: #fff;
+  color: #273272;
+}
+
+.migration-icons.active i {
+  border: 10px solid rgba(255, 255, 255, 0.8);
+  background-color: #273272;
+  color: #fff;
+}
+
+.migration-icons i {
+  display: block;
+  text-align: center;
+  line-height: 65px;
+  font-size: 25px;
+}
+
+.migration-icons span {
+  text-align: center;
+  color: #fff;
+}
+
+.migration-icons strong {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.migration-icons small {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+.testimonials {
+  margin-top: 60px;
+}
+
+.testimonials .info-title {
+  color: #354278;
+}
+
+.testimonials .uk-card {
+  width: 365px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .uk-card::before {
+  content: "\f10d";
+  font-family: "Font Awesome 5 Free";
+  font-size: 60px;
+  font-weight: 800;
+  position: absolute;
+  top: 53px;
+  right: 127px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .uk-card::after {
+  content: "\f0d7";
+  font-family: "Font Awesome 5 Free";
+  font-size: 60px;
+  font-weight: 800;
+  position: absolute;
+  bottom: -22px;
+  right: 182px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.testimonials .uk-card-body {
+  text-align: center;
+}
+
+.testimonial-card .testimonial-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  color: #000;
 }

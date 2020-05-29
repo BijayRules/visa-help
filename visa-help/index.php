@@ -45,7 +45,7 @@
       </nav>
 
       <!-- Visa Help Information -->
-      <div class="info-text uk-container uk-flex uk-flex-between">
+      <div class="visa-info uk-container uk-flex uk-flex-between">
         <div class="uk-light">
           <span class="title-font">
             World Class Australia 
@@ -126,7 +126,7 @@
   <section class="migration-services">
     <div class="migration-services-info">
       <h1 class="info-title uk-text-uppercase">Migration Services</h1>
-      <p class="migration-text">We offer a complete A to Z approach to overseas education, without the complications associated with the <br> international admissions process.
+      <p class="info-text">We offer a complete A to Z approach to overseas education, without the complications associated with the <br> international admissions process.
       </p>
     </div>
 
@@ -182,7 +182,8 @@
     <div class="testimonials-info uk-text-center">
       <h1 class="info-title uk-text-uppercase">Student Testimonials</h1>
     </div>
-    <div class="testimonial-card uk-container uk-flex uk-flex-around">
+    <div class="uk-container uk-flex uk-flex-around">
+    <div class="testimonial-card">
       <div class="uk-card uk-card-default">
         <div class="uk-card-body">
           <p class="testimonial-text">
@@ -190,28 +191,147 @@
           </p>
         </div>
       </div>
-      <div class="uk-card uk-card-default">
-        <div class="uk-card-body">
-          <p class="testimonial-text">
-          I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
-          </p>
+      <div class="testimonial-person uk-flex uk-flex-center">
+        <div class="testimonial-pic">
+          <img src="images/testimonials.png" alt="Testimonal Person">
         </div>
-      </div>
-      <div class="uk-card uk-card-default">
-        <div class="uk-card-body">
-          <p class="testimonial-text">
-          I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
-        </p>
+        <div class="testimonial-info">
+          <span class="testimonial-name">
+            Ms. Sadhana Basnet
+            <small>
+              La Trobe University, Melbourne ( <br>
+              Master  of Professional Accounting)
+            </small>
+          </span>
         </div>
       </div>
     </div>
+    <div class="testimonial-card">
+      <div class="uk-card uk-card-default">
+        <div class="uk-card-body">
+          <p class="testimonial-text">
+          I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+          </p>
+        </div>
+      </div>
+      <div class="testimonial-person uk-flex uk-flex-center">
+        <div class="testimonial-pic">
+          <img src="images/testimonials.png" alt="Testimonal Person">
+        </div>
+        <div class="testimonial-info">
+          <span class="testimonial-name">
+            Ms. Sadhana Basnet
+            <small>
+              La Trobe University, Melbourne ( <br>
+              Master  of Professional Accounting)
+            </small>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="uk-card uk-card-default">
+        <div class="uk-card-body">
+          <p class="testimonial-text">
+          I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+          </p>
+        </div>
+      </div>
+      <div class="testimonial-person uk-flex uk-flex-center">
+        <div class="testimonial-pic">
+          <img src="images/testimonials.png" alt="Testimonal Person">
+        </div>
+        <div class="testimonial-info">
+          <span class="testimonial-name">
+            Ms. Sadhana Basnet
+            <small>
+              La Trobe University, Melbourne ( <br>
+              Master  of Professional Accounting)
+            </small>
+          </span>
+        </div>
+      </div>
+    </div>
+    </div>
   </section>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
 
+  <!-- Study in Australia Section -->
+  <section class="study-in-aus">
+    <div class="studyin-aus-info uk-text-center">
+      <h1 class="info-title uk-text-uppercase">Study in Australia</h1>
+      <p class="info-text"> Australia is a leading global education centre having some of the <br>
+        world's finest facilities and educators, providing international students <br>
+        with varieties of study choices. </p>
+        <a href="#" class="uk-button">Read More</a>
+    </div>
+  </section>
+
+  <!-- Universities And Colleges Linked Section -->
+  <section class="colleges-linked">
+    <h1 class="info-title uk-text-uppercase uk-text-center">
+      University & Colleges Associate With
+      </h1>
+      <div class="colleges-related">
+        <img src="images/colleges-linked.png" alt="Colleges Related">
+      </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="uk-container uk-flex uk-flex-around">
+      <div class="footer-link">
+        <h4 class="footer-heading">USEFUL LINKS</h4>
+        <ul>
+          <li>About Company</li>
+          <li>Message from Director</li>
+          <li>Awards and Accolades</li>
+          <li>Corporate Social Responsibility</li>
+          <li>Privacy Policy</li>
+          <li>Code of Conduct</li>
+          <li>Terms and Conditons</li>
+        </ul>
+      </div>
+      <div class="footer-link">
+        <h4 class="footer-heading">SERVICES</h4>
+        <ul>
+          <li>Education Services</li>      
+          <li> Migration Overview</li>
+          <li>OSHC & OVHC</li>
+          <li>PTE Academic Preparation Classes</li>
+          <li>Professional Year Course</li>
+          <li>Taxation and Business Advisory</li>
+        </ul>
+      </div>
+      <div class="footer-link">
+        <h4 class="footer-heading">SUPPORT</h4>
+        <ul>
+          <li>Student Testimonials</li>
+          <li>Events</li>
+          <li>Awards and Accolades</li>
+          <li>Blogs</li>
+        </ul>
+      </div>
+      <div class="footer-link">
+        <h4 class="footer-heading">CONTACT US</h4>
+        <ul>
+          <li>41/8 Bank Marg,<br> Baagbazar, Near Bhaktapur Buspark, KTM</li>
+          <li>Phone: + 01-4265828, 465838 <li>
+          <li>Email info@visahelpnepal.com</li>
+        </ul>
+        <div class="social-icons">
+          <a href="#" class="social-links">
+            <i class="fab fa-facebook-f"></i>
+          </a>  
+          <a href="#" class="social-links">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-links">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright"> © 2020 VISA HELP, All Rights Reserved Site By: Genesiswtech.com</p>
+  </footer>
 </body>
 </html>

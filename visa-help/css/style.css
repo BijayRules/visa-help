@@ -43,7 +43,7 @@
   color: #354278;
 }
 
-.info-text {
+.visa-info {
   display: flex;
   align-items: center;
 }
@@ -52,19 +52,19 @@
   width: 400px;
 }
 
-.info-text .title-font {
+.visa-info .title-font {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   color: #354278;
 }
 
-.info-text strong {
+.visa-info strong {
   display: block;
   font-size: 48px;
   font-weight: bold;
 }
 
-.info-text small {
+.visa-info small {
   display: block;
   width: 490px;
   font-family: "Nunito", sans-serif;
@@ -78,10 +78,15 @@
   line-height: 52px;
   border-radius: 15px;
   margin-top: 20px;
-  background-color: #e0141b;
+  background-color: #ee3c2b;
+  color: #fff;
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   text-transform: none;
+}
+
+.uk-button:hover {
+  color: #fff;
 }
 
 .aboutus {
@@ -118,9 +123,7 @@
 .aboutus .uk-button {
   font-family: "Nunito", sans-serif;
   font-size: 19px;
-  color: #fff;
   margin: 0;
-  background-color: #ee3c2b;
 }
 
 .achievements {
@@ -157,11 +160,11 @@
 .info-title {
   font-family: "Raleway", sans-serif;
   font-size: 35px;
-  font-weight: 800;
+  font-weight: 700;
   color: #fff;
 }
 
-.migration-services-info .migration-text {
+.info-text {
   font-family: "Nunito", sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -258,4 +261,103 @@
   font-weight: 300;
   font-style: italic;
   color: #000;
+}
+
+.testimonial-person {
+  margin-top: 29px;
+}
+
+.testimonial-person .testimonial-pic {
+  width: 64px;
+  border-radius: 100%;
+  height: 64px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-person .testimonial-pic img {
+  border-radius: 100%;
+}
+
+.testimonial-info {
+  margin-left: 17px;
+  font-family: "Nunito", sans-serif;
+}
+
+.testimonial-info span {
+  font-size: 18px;
+}
+
+.testimonial-info small {
+  display: block;
+  font-size: 14px;
+}
+
+.study-in-aus {
+  background: url("../images/study-in-australia.png");
+  margin-top: 175px;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.study-in-aus .uk-button {
+  margin-top: 0;
+}
+
+.colleges-linked {
+  margin-top: 75px;
+}
+
+.colleges-linked .info-title {
+  color: #273272;
+}
+
+.site-footer {
+  background: url("../images/footer-bg.png");
+  color: #fff;
+  margin-top: 53px;
+  padding-top: 65px;
+  padding-bottom: 43px;
+}
+
+.footer-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+}
+
+.site-footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer li {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-links {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.social-links:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 0;
 }
